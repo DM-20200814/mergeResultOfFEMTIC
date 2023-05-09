@@ -9,7 +9,8 @@ cmake --build build
 ```
 executable file outputs at the bin dir.
 
-## src file tre
+## src file tree
+```
 src
 ├── CMakeLists.txt
 ├── main
@@ -23,4 +24,4 @@ src
     └── src
         ├── definitions.cpp
         └── mergeResult.cpp
-
+```
