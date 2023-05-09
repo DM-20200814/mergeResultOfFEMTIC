@@ -8,3 +8,19 @@ cmake -B build
 cmake --build build
 ```
 executable file outputs at the bin dir.
+
+## src file tre
+src
+├── CMakeLists.txt
+├── main
+│   ├── CMakeLists.txt
+│   └── main.cpp
+└── mergeResultLib
+    ├── CMakeLists.txt
+    ├── include
+    │   └── mergeResultLib
+    │       └── mergeResult.h
+    └── src
+        ├── definitions.cpp
+        └── mergeResult.cpp
+
